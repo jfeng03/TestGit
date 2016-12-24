@@ -70,13 +70,22 @@ To https://github.com/jfeng03/TestGit.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 
-Linda@Linda-PC MINGW32 /c/git/TestGit (master)
-$ git branch branch1
+Linda@Linda-PC MINGW32 /c/git/TestGit (branch1)
+$ git push --set-upstream origin branch1
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/jfeng03/TestGit.git
+ * [new branch]      branch1 -> branch1
+Branch branch1 set up to track remote branch branch1 from origin.
 
-Linda@Linda-PC MINGW32 /c/git/TestGit (master)
-$ git checkout branch1
-Switched to branch 'branch1'
 
 Linda@Linda-PC MINGW32 /c/git/TestGit (branch1)
-$
+$ git status
+On branch branch1
+Your branch is up-to-date with 'origin/branch1'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
