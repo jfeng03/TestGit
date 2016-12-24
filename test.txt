@@ -1,0 +1,54 @@
+Linda@Linda-PC MINGW32 ~
+$ cd c:
+
+Linda@Linda-PC MINGW32 /c
+$ git config --global user.name "jfeng03"
+
+Linda@Linda-PC MINGW32 /c
+$ git config --global user.name "jfeng03"
+
+Linda@Linda-PC MINGW32 /c
+$ git config --global user.email jianning.feng@gmail.com
+
+Linda@Linda-PC MINGW32 /c
+$ cd git
+
+Linda@Linda-PC MINGW32 /c/git
+$ git clone https://github.com/jfeng03/TestGit.git
+Cloning into 'TestGit'...
+warning: You appear to have cloned an empty repository.
+
+Linda@Linda-PC MINGW32 /c/git
+$ ls
+TestGit/
+
+Linda@Linda-PC MINGW32 /c/git
+$ cd T*
+
+Linda@Linda-PC MINGW32 /c/git/TestGit (master)
+$ ls
+
+Linda@Linda-PC MINGW32 /c/git/TestGit (master)
+$ ls
+test.txt
+
+Linda@Linda-PC MINGW32 /c/git/TestGit (master)
+$ git add test.txt
+
+Linda@Linda-PC MINGW32 /c/git/TestGit (master)
+$ ls
+test.txt
+
+Linda@Linda-PC MINGW32 /c/git/TestGit (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   test.txt
+
+
+Linda@Linda-PC MINGW32 /c/git/TestGit (master)
